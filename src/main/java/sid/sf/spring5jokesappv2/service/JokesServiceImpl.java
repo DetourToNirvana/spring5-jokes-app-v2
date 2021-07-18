@@ -10,7 +10,7 @@ public class JokesServiceImpl implements JokesService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(JokesServiceImpl.class);
 
-    private ChuckNorrisQuotes chuckNorrisQuotes;
+    private final ChuckNorrisQuotes chuckNorrisQuotes;
 
     public JokesServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
         this.chuckNorrisQuotes = chuckNorrisQuotes;
